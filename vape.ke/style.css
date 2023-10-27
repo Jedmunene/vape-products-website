@@ -1,0 +1,97 @@
+/* Styles for the image in the product table */
+table {
+    width: 100%;
+}
+
+table img {
+    max-width: 100px;
+}
+
+/* Styles for the video section */
+#featured-videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#featured-videos iframe {
+    width: 560px;
+    height: 315px;
+}
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Video section styles */
+#featured-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#featured-videos iframe {
+    width: 560px;
+    height: 315px;
+    margin: 10px;
+}
